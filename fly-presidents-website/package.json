@@ -1,0 +1,17 @@
+{
+  "name": "fly-presidents-website",
+  "version": "1.0.0",
+  "description": "Fly Presidents storefront with Stripe checkout, order log, and email notifications",
+  "main": "server/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "stripe": "^16.12.0",
+    "resend": "^4.0.1",
+    "dotenv": "^16.4.5"
+  }
+}

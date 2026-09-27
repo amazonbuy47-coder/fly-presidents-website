@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fly Presidents</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="promo-bar">Free shipping over $X &nbsp;·&nbsp; Members get early access to drops</div>
+
+  <header class="site wrap">
+    <img class="logo" src="images/logo.png" alt="Fly Presidents logo">
+    <nav>
+      <a href="#drop">Shop</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#shipping">Shipping</a>
+    </nav>
+  </header>
+
+  <div class="hero wrap">
+    <div class="eyebrow">The FP Family</div>
+    <h1>FLY PRESIDENTS</h1>
+    <p>"Presidential Gallery" windbreaker sets are out now — sizes are selling out quick.</p>
+    <div style="display:flex; gap:14px; flex-wrap:wrap; justify-content:center;">
+      <a href="#drop" class="btn btn-primary">Shop the Drop</a>
+      <a href="#gallery" class="btn btn-ghost">View Gallery</a>
+    </div>
+  </div>
+
+  <section id="drop" class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">The Catalog</div>
+        <h2>Presidential Gallery</h2>
+      </div>
+    </div>
+    <div class="products" id="products">
+      <!-- product cards render here from /api/products -->
+    </div>
+  </section>
+
+  <section id="gallery" class="soft">
+    <div class="wrap">
+      <div style="text-align:center; margin-bottom:32px;">
+        <div class="eyebrow">Members</div>
+        <h2>Repping The Crew</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="tile wide">
+          <img src="images/bandsomerj.jpg" alt="@bandsomerj">
+          <div class="tag">@bandsomerj</div>
+        </div>
+        <div class="tile wide">
+          <img src="images/bandsomechris.jpg" alt="@bandsomechris">
+          <div class="tag">@bandsomechris</div>
+        </div>
+        <div class="tile fp-tile"><span>FP</span></div>
+      </div>
+      <div style="text-align:center; margin-top:28px;">
+        <div class="eyebrow" style="margin-bottom:14px;">Tag @flypresidents to be featured</div>
+        <div style="display:flex; gap:14px; justify-content:center; flex-wrap:wrap;">
+          <a href="https://www.instagram.com/flypresidents/" target="_blank" rel="noopener" class="btn btn-primary">Follow on Instagram</a>
+          <a href="https://www.tiktok.com/@flypresidents" target="_blank" rel="noopener" class="btn btn-ghost">Follow on TikTok</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="wrap about">
+    <div class="eyebrow" style="margin-bottom:10px;">The Movement</div>
+    <h2 style="font-size:30px; margin-bottom:16px;">[BRAND STORY HEADLINE]</h2>
+    <p>[BRAND STORY — origin, mission, what sets Fly Presidents apart]</p>
+  </section>
+
+  <section id="shipping" class="wrap shipping-strip" style="padding-top:0;">
+    <div>
+      <div style="font-weight:700; font-size:15px;">Shipping</div>
+      <div style="font-size:13px; color:var(--fg-muted);">[SHIPPING DETAILS — timeframe, carrier, regions]</div>
+    </div>
+  </section>
+
+  <footer class="site">
+    <div class="wrap">
+      <div style="max-width:300px;">
+        <img src="images/logo.png" alt="Fly Presidents logo" style="height:32px; margin-bottom:14px;">
+        <p style="color:#b5b5b2; font-size:13px; line-height:1.6;">[SHORT FOOTER BLURB]</p>
+      </div>
+      <div class="cols">
+        <div class="col">
+          <div class="label">Shop</div>
+          <a href="#drop">The Catalog</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#shipping">Shipping</a>
+        </div>
+        <div class="col">
+          <div class="label">Follow</div>
+          <a href="https://www.instagram.com/flypresidents/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.tiktok.com/@flypresidents" target="_blank" rel="noopener">TikTok</a>
+        </div>
+      </div>
+    </div>
+    <div class="wrap bottom-bar">
+      <span>© 2026 Fly Presidents. All rights reserved.</span>
+      <span>New York, NY</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
